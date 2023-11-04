@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header {
+  height: 150px;
+  width: 100%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+  position: relative;
+  background: linear-gradient(red, black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-content {
+  position: relative;
+  z-index: 1;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(143, 143, 143);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 50px;
+  text-decoration: none;
+  
+}
+ul li a{
+padding-right: 200px;
+font-weight: bold;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+li a:hover {
+  background-color: red;
+}
+.container
+{
+  margin-top: 50px;
+}
+footer
+{
+  background-image: linear-gradient(red,black);
+  color: aliceblue;
+  text-align: center;
+  height: 50px;
+  width:100%;
+}
+.container {
+    width: 80%;
+   margin: auto;
+    overflow: hidden;
+  }
+  .product {
+    float: left;
+    width: 24%;
+    padding: 10px;
+    margin: 1%;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+  }
+  .product h3 {
+    margin: 5px 0;
+  }
+  .product img {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover; 
+}
+.product p {
+    font-size: 14px;
+    color: #888;
+  }
+  button{
+
+color:black;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+}
+#div{
+position: absolute; 
+top: 900px;
+left: 400px;
+}
+.menu{
+    float:right;
+  overflow: hidden;
+  font-style:italic;
+ position: relative;
+ top:10px;
+}
+.submenu
+{
+ display: none;
+  position: absolute;
+  left: 0;
+  background-color: red;
+  width: 100%;
+  z-index: 1;
+}
+button
+{
+    background-color: blue;
+    color: white;
+    border-radius: 40px;
+}
+video
+{
+    
+    height: 300px;
+    width: 500px;;
+    margin-left: 500px;
+}
+footer
+{
+  background-image: linear-gradient(red,black);
+  color: aliceblue;
+  text-align: center;
+  height: 50px;
+  width:100%;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <p>Shoe Mart</p>
+    </header>
+    <section class="one">
+        <div id="two">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="formal.html">Formal</a></li>
+                <li><a href="casual.html">Casual</a></li>
+                <li><a href="sports">Sports</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <video  controls>
+            <source src="/media/sports.mp4" type="video/mp4">
+            </video>
+        <div class="container">
+            <div class="product">
+                
+              <img src="/images/s1.jpeg" alt="">
+              <h3>Product 1</h3>
+              <p>Rs.2000</p>
+              <button>Add to Cart</button>
+            </div>
+            
+            <div class="product">
+              <img src="/images/s7.webp" alt="">
+              <h3>Product 2</h3>
+              <p>Rs.999</p>
+              <button>Add to Cart</button>
+            </div>
+            
+            <div class="product">
+              <img src="/images/s3.jpeg" alt="">
+              <h3>Product 3</h3>
+              <p>Rs.1200</p>
+              <button>Add to Cart</button>
+            </div>
+            
+            <div class="product">
+              <img src="/images/s4.jpeg" alt="">
+              <h3>Product 4</h3>
+              <p>Rs.500</p>
+              <button>Add to Cart</button>
+            </div>
+            <div class="product">
+              <img src="/images/s8.jpeg" alt="">
+              <h3>Product 5</h3>
+              <p>Rs.1200</p>
+              <button>Add to Cart</button>
+            </div>
+            <div class="product">
+              <img src="images/s6.webp" alt="">
+              <h3>Product 6</h3>
+              <p>Rs.1200</p>
+              <button>Add to Cart</button>
+            </div>
+            
+
+            

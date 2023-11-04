@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+   <style>
+    header {
+  height: 150px;
+  width: 100%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+  position: relative;
+  background: linear-gradient(red, black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-content {
+  position: relative;
+  z-index: 1;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(143, 143, 143);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 50px;
+  text-decoration: none;
+  
+}
+ul li a{
+padding-right: 200px;
+font-weight: bold;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+li a:hover {
+  background-color: red;
+}
+.form
+{
+    height: 300px;
+    width: 600px;
+    border: 5px solid black;
+    margin-left: 500px;
+    margin-top: 100px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+     background-color: coral;
+
+}
+.java
+{
+    background-color: teal;
+    color: aliceblue;
+}
+.form {
+            height: 300px;
+            width: 600px;
+            border: 5px solid black;
+            margin: 100px auto;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: coral;
+            transition: opacity 0.5s; 
+            opacity: 0.5; 
+        }
+
+        .form:hover {
+            opacity: 1; 
+        }
+footer
+{
+  background-image: linear-gradient(red,black);
+  color: aliceblue;
+  text-align: center;
+  height:100px;
+  width:100%;
+}
+
+
+
+
+
+   </style>
+</head>
+<body>
+
+<h1>Contact Us</h1>
+<header>
+    <p>Shoe Mart</p>
+</header>
+<section class="one">
+    <div id="two">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="formal.html">Formal</a></li>
+            <li><a href="casual.html">Casual</a></li>
+            <li><a href="sports.html">Sports</a></li>
+            <li><a href="Contact US">Contact Us</a></li>
+        </ul>
+    </div>
+
+<section class="form">
+<form action="vishnu258003@gmail.com" method="post" enctype="text/plain">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+    <input type="submit" value="Submit" class="java">
+</form>
+</section>
+<footer>
+    <p>copyrights @gmail.com</p>
+</footer>
+
+</body>
+</html>
